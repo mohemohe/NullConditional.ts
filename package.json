@@ -1,0 +1,17 @@
+{
+  "name": "NullConditional.ts",
+  "version": "1.0.0",
+  "description": "magical null conditional function for TypeScript",
+  "main": "index.ts",
+  "repository": "https://github.com/mohemohe/NullConditional.ts.git",
+  "author": "mohemohe",
+  "license": "MIT",
+  "devDependencies": {
+    "alsatian": "^2.2.1",
+    "ts-node": "^6.1.0",
+    "typescript": "^2.9.1"
+  },
+  "scripts": {
+    "test": "ts-node ./tests/runner.ts"
+  }
+}
