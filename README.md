@@ -1,5 +1,5 @@
 # NullConditional.ts
-magical null conditional function for TypeScript
+magical null conditional function with typing for TypeScript
 
 ## usage
 
