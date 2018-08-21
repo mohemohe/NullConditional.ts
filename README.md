@@ -16,9 +16,9 @@ const hoge = {
     },
 } as any;
 
-const e = resolve(_(_(_(_(object).b).d).e));
+const e = resolve(_(_(_(_(hoge).b).d).e));
 console.log(e) // "text"
 
-const f = resolve(_(_(_(_(object).b).d).f));
+const f = resolve(_(_(_(_(hoge).b).d).f));
 console.log(f) // null
 ```
