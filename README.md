@@ -6,7 +6,7 @@ magical null conditional function with typing for TypeScript
 ```ts
 import {chain as _, resolve} from "../";
 
-const hoge: ITestObject = {
+const hoge = {
     a: 1,
     b: {
         c: 2,
@@ -14,7 +14,7 @@ const hoge: ITestObject = {
             e: "text",
         }
     },
-};
+} as any;
 
 const e = resolve(_(_(_(_(object).b).d).e));
 console.log(e) // "text"
